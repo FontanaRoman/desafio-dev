@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  background-color: rgb(0, 0, 0);
+  color: rgb(230, 230, 230);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+#root{
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+  max-height: max-content;
+  padding: 0;
+  margin: 0;
+}
+
+.shadowBotton{
+  box-shadow: 5px 5px 0px rgb(255, 255, 255);
+  transition:  .3s ease-in-out;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.shadowForm{
+  box-shadow: 5px 5px rgb(255, 255, 255);
+}
+.shadowBotton:hover{
+  box-shadow: 3px 3px 0px rgb(252, 191, 7);
+}
